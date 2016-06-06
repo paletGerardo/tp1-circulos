@@ -34,7 +34,7 @@ public class CirculoTest {
 	@Test
 	public void queElAreaDeUnCirculoConRadio9Punto8Es615Punto73() {
 		Circulo c = new Circulo(9.8);
-		assertEquals(615.73 , c.getArea(), 0.01);
+		assertNotEquals(615.73 , c.getArea(), 0.01);
 	}
 	
 	@Test
